@@ -8,7 +8,6 @@
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python 3.12"></a>
 <a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/scikit--learn-1.9.1-F7931E?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn"></a>
 <a href="https://archive.ics.uci.edu/dataset/551/gas+turbine+co+and+nox+emission+data+set"><img src="https://img.shields.io/badge/UCI%20Dataset-ID%20551-4B8BBE?style=for-the-badge" alt="UCI Dataset 551"></a>
-<a href="tests/verify_rubric.py"><img src="https://img.shields.io/badge/Syllabus-Zero--SVM%20Strict-2E8B57?style=for-the-badge" alt="Zero-SVM syllabus strict"></a>
 <a href="tests/verify_rubric.py"><img src="https://img.shields.io/badge/Rubric-4%2F4%20Passing-brightgreen?style=for-the-badge" alt="4/4 rubric tests passing"></a>
 <a href="figures/ppt/"><img src="https://img.shields.io/badge/Figures-300--DPI-blueviolet?style=for-the-badge" alt="300 DPI figures"></a>
 </p>
@@ -591,6 +590,6 @@ jupyter/nbconvert 7.17.2 · pytest 9.2.0 · ruff 0.17.6
 ### Course
 
 > **CHE F315 — Machine Learning for Chemical Engineers**
-> BITS Pilani, K. K. Birla Goa Campus · Presentation deliverables: Prof. Riju De
+> BITS Pilani, K. K. Birla Goa Campus
 
-<p align="center"><em>Built for reproducibility, chemical-engineering interpretability, and honest temporal validation.</em></p>
+
