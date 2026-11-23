@@ -235,7 +235,6 @@ SLIDES = [
             ("4", "Results & Surprises", "What worked and what changed over time."),
             ("5", "Plant Takeaways", "Turning predictions into practical warnings."),
         ],
-        "note": "About 17–18 minutes · Samar Talwar presents slides 1–11 · Soumya Mandoliya presents slides 12–22.",
         "takeaway": takeaway(
             "What This Means",
             "We follow one plant story: understand the data, test honestly, then act on the results.",
@@ -904,7 +903,8 @@ def render_slide(slide: dict, number: int) -> str:
             )
             if index < len(positions) - 1:
                 body += f'<div class="arrow" style="left:{x + 162}pt;">→</div>'
-        body += f'<div class="note" style="top:278pt;">{esc(slide["note"])}</div>'
+        if slide.get("note"):
+            body += f'<div class="note" style="top:278pt;">{esc(slide["note"])}</div>'
         body += callout
 
     elif layout == "two_cards":
@@ -1365,7 +1365,8 @@ def build_pptx() -> None:
                 add_text(slide, text, x + 12, 200, 134, 50, 11.5, CHARCOAL)
                 if index < 4:
                     add_text(slide, "→", x + 162, 180, 20, 26, 24, STEEL, bold=True)
-            add_text(slide, data["note"], 46, 278, 868, 22, 12, GREY)
+            if data.get("note"):
+                add_text(slide, data["note"], 46, 278, 868, 22, 12, GREY)
             add_callout(slide, take)
 
         elif layout == "two_cards":
