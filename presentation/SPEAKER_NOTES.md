@@ -4,7 +4,7 @@
 **Subtitle:** A Software-Based Alternative to Expensive Physical Emission Sensors (CO & NOx)  
 **Course:** CHE F315 — Machine Learning for Chemical Engineers  
 **Professor:** Professor Riju De  
-**Date:** November 2026  
+**Date:** 23 November 2026  
 **Institution:** BITS Pilani, K. K. Birla Goa Campus
 
 **Team:** Samar Talwar (2024A1PS0264G) · Soumya Mandoliya (2024A1PS0277G)

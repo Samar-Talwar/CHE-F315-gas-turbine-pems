@@ -34,7 +34,7 @@ PPTX_PATH = OUT / "CHE_F315_Gas_Turbine_PEMS.pptx"
 NOTES_PATH = OUT / "SPEAKER_NOTES.md"
 TMP_RENDER = Path("/tmp/opencode/presentation_pages")
 
-PRESENTATION_DATE = "November 2026"
+PRESENTATION_DATE = "23 November 2026"
 COURSE = "CHE F315 — Machine Learning for Chemical Engineers"
 PROFESSOR = "Professor Riju De"
 INSTITUTION = "BITS Pilani, K. K. Birla Goa Campus"
